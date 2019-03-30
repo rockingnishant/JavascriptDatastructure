@@ -7,22 +7,23 @@ class LinkedList{
 
     add(element){
         let node =new Node(element)
-        let current;
+        let temp;
 
         if(this.head==null){
             this.head=node;
         }else{
-            current=this.head
-            while(current.next){
-                current=current.next;
+            temp=this.head
+            while(temp.next){
+                temp=temp.next;
             }
 
             //add node
-            current.next=node;
+            temp.next=node;
         }
         this.size++;
     }
     isEmpty(){
+        console.log("Inside empty")
         return this.size===0;
     }
     sizeOfList(){

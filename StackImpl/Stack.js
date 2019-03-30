@@ -8,7 +8,6 @@ class Stack{
       console.log('PUSH')
       let node =new Node(value,this.top)
       this.top=node
-
       this.print()
      
     }
