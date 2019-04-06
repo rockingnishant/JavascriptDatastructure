@@ -1,4 +1,5 @@
 // This is also divide and conquer algorithm which divide array into smaller and merge together.
+// is external and worst case is O(nlogn) and can work on any Size of dataset.
 let unsortedArray = [340, 1, 3, 3, 76, 23, 4, 12, 122, 7642, 646];
 
 let merge = (leftArr, rightArr) => {

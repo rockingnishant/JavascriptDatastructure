@@ -1,4 +1,7 @@
 //Quick Sort is a divide and conquer algorithm. It first divide the Array by choosing Pivot and then combining together.
+//Quick sort is more efficient on smaller array than larger dataset.
+//Quick sort is internal sorting and stotred in Memory.
+//Quick sort is preffered for Array and merge sort for Linkedlist.
 
 let quickSort = (arr) => {
 
