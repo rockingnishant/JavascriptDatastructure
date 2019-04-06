@@ -1,4 +1,4 @@
-//Quick Sort is a divide and conquer algorithm. It first divide the 
+//Quick Sort is a divide and conquer algorithm. It first divide the Array by choosing Pivot and then combining together.
 
 let quickSort = (arr) => {
 
