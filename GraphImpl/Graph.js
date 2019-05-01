@@ -1,5 +1,5 @@
 //create a graph class
-const Queue = require('./Queue')
+const Queue = require('./Queue');
 class Graph {
     constructor(noOfVertices) {
         this.noOfVertices = noOfVertices;
